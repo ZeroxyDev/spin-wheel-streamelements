@@ -1,5 +1,5 @@
 function Winwheel(a, b) {
-    defaultOptions = {canvasId: "canvas", centerX: null, centerY: null, outerRadius: null, innerRadius: 0, numSegments: 1, drawMode: "code", rotationAngle: 0, textFontFamily: "Arial", textFontSize: 20, textFontWeight: "bold", textOrientation: "horizontal", textAlignment: "center", textDirection: "normal", textMargin: null, textFillStyle: "black", textStrokeStyle: null, textLineWidth: 1, fillStyle: "white", strokeStyle: "black", lineWidth: 1, clearTheCanvas: true, imageOverlay: false, drawText: true, pointerAngle: 0, wheelImage: null, imageDirection: "N"};
+    defaultOptions = {canvasId: "canvas", centerX: null, centerY: null, outerRadius: null, innerRadius: 0, numSegments: 1, drawMode: "code", rotationAngle: 0, textFontFamily: "Arial", textFontSize: 20, textFontWeight: "bold", textOrientation: "horizontal", textAlignment: "center", textDirection: "normal", textMargin: null, textFillStyle: "black", textStrokeStyle: null, textLineWidth: 1, fillStyle: "black", strokeStyle: "black", lineWidth: 1, clearTheCanvas: true, imageOverlay: false, drawText: true, pointerAngle: 0, wheelImage: null, imageDirection: "N"};
     for (var c in defaultOptions) {
       this[c] = a != null && typeof a[c] !== "undefined" ? a[c] : defaultOptions[c];
     }
