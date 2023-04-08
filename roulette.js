@@ -11,7 +11,7 @@ function Winwheel(a, b) {
         textFontFamily: "Arial",
         textFontSize: 20,
         textFontWeight: "bold",
-        textOrientation: "horizontal",
+        textOrientation: "vertical",
         textAlignment: "center",
         textDirection: "normal",
         textMargin: null,
